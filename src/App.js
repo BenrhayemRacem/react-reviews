@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+
+import data from "./data";
+import {useState} from "react";
+import Review from "./Review";
+
+
 
 function App() {
+  const [index , setIndex] = useState(0);
+  const singleReview = data[index];
+  const handlePrev = ()=> {
+      if(index===0) {
+          setIndex(data.length - 1);
+          return;
+
+      }
+      setIndex(index-1);
+
+  }
+  const handleNext = ()=> {
+      if(index===data.length-1) {
+          setIndex(0);
+          return;
+
+      }
+      setIndex(index+1);
+  }
+  const handleShuffle = ()=> {
+      const randomIndex = Math.floor(Math.random() * (data.length -1));
+      console.log(randomIndex);
+      if (randomIndex===index || randomIndex===0) {
+          handlePrev()
+          return;
+      }
+      if(randomIndex===data.length-1) {
+          handleNext()
+          return;
+      }
+      setIndex(randomIndex);
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <main>
+
+        <Review {...singleReview}/>
+          <div className="button-grp">
+              <button onClick={handlePrev}>prev</button>
+              <button onClick={handleShuffle}>shuffle</button>
+              <button onClick={handleNext}>next</button>
+          </div>
+
+      </main>
+
   );
 }
 
