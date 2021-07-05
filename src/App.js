@@ -26,7 +26,8 @@ function App() {
       setIndex(index+1);
   }
   const handleShuffle = ()=> {
-      const randomIndex = Math.floor(Math.random() * (data.length -1));
+      const randomIndex = Math.floor(Math.random() * (data.length ));
+
       console.log(randomIndex);
       if (randomIndex===index || randomIndex===0) {
           handlePrev()
