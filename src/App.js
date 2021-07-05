@@ -1,7 +1,10 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import data from "./data";
 import {useState} from "react";
 import Review from "./Review";
+import {FcNext, FcPrevious} from "react-icons/fc";
+import {FaRandom} from "react-icons/fa";
+import {Button, ButtonGroup, Container} from "react-bootstrap";
 
 
 
@@ -44,11 +47,13 @@ function App() {
       <main>
 
         <Review {...singleReview}/>
-          <div className="button-grp">
-              <button onClick={handlePrev}>prev</button>
-              <button onClick={handleShuffle}>shuffle</button>
-              <button onClick={handleNext}>next</button>
-          </div>
+          <Container>
+          <ButtonGroup size="lg" className="mb-2">
+              <Button variant="outline-primary" onClick={handlePrev}><FcPrevious/></Button>
+              <Button variant="outline-primary" onClick={handleShuffle}><FaRandom/></Button>
+              <Button variant="outline-primary" onClick={handleNext}><FcNext/></Button>
+          </ButtonGroup>
+          </Container>
 
       </main>
 
