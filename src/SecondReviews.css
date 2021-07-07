@@ -1,0 +1,9 @@
+section.secondReview  {
+     background-color: black;
+ }
+section.secondReview h3 , section.secondReview h4 {
+    color: white;
+}
+section.secondReview img {
+    border: white 2px solid;
+}

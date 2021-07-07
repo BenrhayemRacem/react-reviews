@@ -1,0 +1,19 @@
+
+
+div.container.review {
+    text-align: center;
+    padding-top: 30px;
+
+    border-radius: 10%;
+
+}
+div.container {
+    text-align: center;
+
+
+}
+
+img {
+    width: 40vw;
+    height: 60vh;
+}
