@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-reviews/static/css/main.1a0edb41.chunk.css",
-    "main.js": "/react-reviews/static/js/main.277b40b8.chunk.js",
-    "main.js.map": "/react-reviews/static/js/main.277b40b8.chunk.js.map",
+    "main.css": "/react-reviews/static/css/main.9bd9c966.chunk.css",
+    "main.js": "/react-reviews/static/js/main.3bfa454a.chunk.js",
+    "main.js.map": "/react-reviews/static/js/main.3bfa454a.chunk.js.map",
     "runtime-main.js": "/react-reviews/static/js/runtime-main.98e7263f.js",
     "runtime-main.js.map": "/react-reviews/static/js/runtime-main.98e7263f.js.map",
     "static/css/2.081f420c.chunk.css": "/react-reviews/static/css/2.081f420c.chunk.css",
-    "static/js/2.51380442.chunk.js": "/react-reviews/static/js/2.51380442.chunk.js",
-    "static/js/2.51380442.chunk.js.map": "/react-reviews/static/js/2.51380442.chunk.js.map",
+    "static/js/2.51d6f7ca.chunk.js": "/react-reviews/static/js/2.51d6f7ca.chunk.js",
+    "static/js/2.51d6f7ca.chunk.js.map": "/react-reviews/static/js/2.51d6f7ca.chunk.js.map",
     "index.html": "/react-reviews/index.html",
     "static/css/2.081f420c.chunk.css.map": "/react-reviews/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.1a0edb41.chunk.css.map": "/react-reviews/static/css/main.1a0edb41.chunk.css.map",
-    "static/js/2.51380442.chunk.js.LICENSE.txt": "/react-reviews/static/js/2.51380442.chunk.js.LICENSE.txt"
+    "static/css/main.9bd9c966.chunk.css.map": "/react-reviews/static/css/main.9bd9c966.chunk.css.map",
+    "static/js/2.51d6f7ca.chunk.js.LICENSE.txt": "/react-reviews/static/js/2.51d6f7ca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98e7263f.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.51380442.chunk.js",
-    "static/css/main.1a0edb41.chunk.css",
-    "static/js/main.277b40b8.chunk.js"
+    "static/js/2.51d6f7ca.chunk.js",
+    "static/css/main.9bd9c966.chunk.css",
+    "static/js/main.3bfa454a.chunk.js"
   ]
 }
